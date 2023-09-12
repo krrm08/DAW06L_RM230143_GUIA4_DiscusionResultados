@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Potencia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Calculadora de Potencia</h1>
+        <form id="powerForm">
+            <div class="form-group">
+                <label for="baseInput">Base:</label>
+                <input type="number" class="form-control" id="baseInput" required>
+            </div>
+            <div class="form-group">
+                <label for="exponentInput">Potencia:</label>
+                <input type="number" class="form-control" id="exponentInput" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular Potencia</button>
+        </form>
+        <div class="mt-4">
+            <p>Resultado:</p>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="js/potencia.js"></script>
+</body>
+</html>
